@@ -107,6 +107,52 @@ header a:hover {
   color: #fff;
 }
 
+/* Button Styles (Updated) */
+.update-btn {
+  background: var(--primary); /* Green */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out, transform 0.2s;
+  margin-top: 10px;
+}
+
+.update-btn:hover {
+  background: var(--secondary); /* Light Green */
+  transform: scale(1.05);
+}
+
+.update-btn:active {
+  background: #2f9e44; /* Darker Green */
+}
+
+.cancel-btn {
+  background: var(--accent); /* Soft Red */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out, transform 0.2s;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.cancel-btn:hover {
+  background: #f9a3a3; /* Lighter Red */
+  transform: scale(1.05);
+}
+
+.cancel-btn:active {
+  background: #d87474; /* Darker Red */
+}
+
 /* Form Styling */
 label {
   font-weight: 600;
